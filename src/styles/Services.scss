@@ -1,0 +1,57 @@
+.container {
+  background-color: #63a1bc;
+  padding: 30px 60px 50px 60px;
+  width: 100%;
+  max-width: 520px;
+}
+
+.title {
+  font-family: 'Cookie', cursive;
+  margin: 0;
+  color: white;
+  font-size: 70px;
+  font-weight: lighter;
+  text-shadow: 2px 2px #5791ab;
+  padding-bottom: 20px;
+}
+
+.button {
+  background-color: #e35886;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 30px;
+  margin-bottom: 7px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 1;
+  }
+}
+
+.active {
+  background-color: #8ec26b;
+}
+
+.text {
+  margin: 0;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.result {
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 30px;
+  margin-top: 14px;
+}
